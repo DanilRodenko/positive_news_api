@@ -2,7 +2,7 @@ import smtplib
 
 def send_mail(message):
     user = "rodenko.d96@gmail.com"
-    passwd = "vhdfhpnglrvwelsd"
+    passwd = ""
 
     server = "smtp.gmail.com"
     port = 587
