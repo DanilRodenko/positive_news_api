@@ -3,7 +3,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 from send_mail import send_mail
 
 analyzer = SentimentIntensityAnalyzer()
-key = "ee82603e140342af8eb68c4119307ab0"
+key = ""
 
 url = f"https://newsapi.org/v2/everything?domains=wsj.com&apiKey={key}"
 
